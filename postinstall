@@ -1,0 +1,8 @@
+#!/bin/bash -x
+
+VERSION=23
+ACTIVATORPATH="/Applications/IBM/SPSS/Statistics/$VERSION/SPSSStatistics.app/Contents/bin/"
+AUTHCODE=<redacted>
+
+cd $ACTIVATORPATH
+"$ACTIVATORPATH/licenseactivator" $AUTHCODE
